@@ -29,4 +29,10 @@ public class GlobalExceptionHandler {
 		logger.error("IOException handler executed");
 		//returning 404 error code
 	}
+	
+	@ResponseStatus(value=HttpStatus.INTERNAL_SERVER_ERROR, reason="RuntimeException occured")
+	@ExceptionHandler(RuntimeException.class)
+	public void handleRuntimeException(){
+		logger.error("RuntimeException handler executed");
+	}
 }
