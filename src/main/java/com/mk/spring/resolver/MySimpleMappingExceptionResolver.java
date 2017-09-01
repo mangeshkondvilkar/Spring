@@ -1,4 +1,4 @@
-package com.journaldev.spring.resolver;
+package com.mk.spring.resolver;
 
 import javax.servlet.http.HttpServletRequest;
 

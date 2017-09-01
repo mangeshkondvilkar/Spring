@@ -1,4 +1,4 @@
-package com.journaldev.spring.controllers;
+package com.mk.spring.controllers;
 
 import java.io.IOException;
 import java.sql.SQLException;

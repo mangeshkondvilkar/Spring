@@ -1,4 +1,4 @@
-package com.journaldev.spring.controllers;
+package com.mk.spring.controllers;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.journaldev.spring.exceptions.EmployeeNotFoundException;
-import com.journaldev.spring.model.Employee;
-import com.journaldev.spring.model.ExceptionJSONInfo;
+import com.mk.spring.exceptions.EmployeeNotFoundException;
+import com.mk.spring.model.Employee;
+import com.mk.spring.model.ExceptionJSONInfo;
 
 @Controller
 public class EmployeeController {

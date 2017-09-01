@@ -1,4 +1,4 @@
-package com.journaldev.spring.model;
+package com.mk.spring.model;
 
 public class Employee {
 
